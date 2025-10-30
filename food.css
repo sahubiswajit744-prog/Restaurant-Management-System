@@ -1,0 +1,318 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 30px;
+}
+
+nav button{
+    width: 80px;
+    height: 28px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+}
+
+nav ul{
+    margin-right: 33px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;   
+  gap: 10px;            
+}
+
+.logo-img {
+  height: 50px;          
+  width: auto;  
+  border-radius: 10px;        
+}
+
+.logo-text {
+  font-size: 36px;      
+  font-family: cursive;  
+  color: red;            
+  margin: 0;             
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 175px;
+}
+
+.main .mainText h1{
+    font-size: 40px;
+}
+
+.mainText h2{
+    font-size: 33px;
+    color: rgb(60,121,252);
+}
+
+.mainText p{
+    color: silver;
+}
+
+.mainText button{
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 22px;
+    
+}
+
+.main img{
+    width: 38%;
+
+}
+
+.mainText button:hover{
+    border: 3px solid red;
+    background-color:transparent;
+    cursor: pointer;
+}
+
+.head{
+    text-align: center;
+    margin-top: 25px;
+    padding: 65px;
+}
+
+.head span{
+    color: rgb(53,151,249);
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.card .crd{
+    width: 300px;
+    margin-inline: 22px;
+     background-color: white;
+     color: black;
+}
+
+.foodText button{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+}
+
+.foodText button:hover{
+    cursor: pointer;
+}
+
+.crd .foodText{
+    padding: 22px;
+}
+
+.crd img{
+    width: 100%;
+}
+.crd:hover{
+    background-color: rgb(101, 101, 101);
+    color:white;
+}
+.best{
+    display: flex;
+    width: 800px;
+    background-color:white;
+    color:black;
+    margin-top: 33px;
+    margin-left: 20%;
+}
+
+.best img{
+    width: 44%;
+}
+
+.bets .bestText{
+    padding: 22px;
+}
+
+.bestText{
+    text-align: center;
+}
+
+.bestText a{
+    width: 130px;
+    width: 33px;
+    background-color: red;
+    color:black;
+    border-radius: 4px;
+    font-size:15px;
+    border: none;
+
+}
+
+.bestText  button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.bestText img{
+    border-radius: 50%;
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+}
+
+.orderText i{
+    font-size: 187px;
+    color: red;
+}
+
+.orderText{
+    margin-inline: 100px;
+
+}
+
+.orderText i:hover{
+    color: green;
+}
+
+.orderText button{
+    width: 130px;
+    height:36px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border:none;
+   
+}
+
+.orderText button:hover{
+    cursor: pointer;
+    background-color: black;
+    border:solid 3px red;
+}
+
+.fotter{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(232,230,230);
+    color: black;
+    padding: 55px;
+    margin-top: 84px;
+}
+
+.loginPage{
+    display: none;
+    width: 190px;
+    padding: 20px;
+    background-color: rgb(192, 72, 152);
+    position: absolute;
+    margin-left: 81%;
+    top:10%;
+    text-align: center;
+    border-radius: 6px;
+
+}
+
+.loginPage input{
+    width: 170px;
+    padding: 4px;
+    border: 2px solid rgb(66, 26, 103);
+    outline: none;
+    margin: 11px; 
+    border-radius: 5px;
+}
+.loginPage button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(54, 136, 250);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+    border-radius: 5px;
+
+}
+
+
+.tracking{
+  
+    display: flex;
+    justify-content: space-around;
+    margin-top: 175px;
+    display: none;
+}
+
+.tracking img{
+    width: 50%;
+}
+
+/* FAQ Section */
+.Faq {
+    padding: 50px 20px;
+    background:black;
+    text-align: center;
+}
+
+.faq .head h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.faq-box {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.faq-item {
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.faq-question {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.faq-answer {
+    display: none;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #454242;
+}
